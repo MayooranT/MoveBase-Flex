@@ -1,0 +1,13 @@
+<launch>
+
+  <!-- <arg name="model" default="burger"/>
+  <include file="$(find turtlebot3_gazebo)/launch/turtlebot3_world.launch"/> -->
+
+  <include file="$(find mbf_beginner)/launch/amcl_demo_relay_subscriber.launch"/>
+
+  <include file="$(find mbf_beginner)/launch/rviz.launch"/>
+
+  <node name="smach_viewer" pkg="smach_viewer" type="smach_viewer.py"/>
+
+  <node name="state_machine" pkg="mbf_beginner" type="state_machine2.py"/>
+</launch>
