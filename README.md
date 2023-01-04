@@ -17,7 +17,7 @@ Go through the documentation and tutorilas to download and execute it.
 Clone the repo and compile it,
 
 ```
-git clone https://gitlab.com/arimac-robotics/core-software/intern_projects/mayooran_entc18/move-base-flex.git
+git clone https://github.com/MayooranT/MoveBase-Flex.git
 catkin_make
 ```
 
